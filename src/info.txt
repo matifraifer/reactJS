@@ -1,0 +1,16 @@
+Los componentes en react son funciones 
+1) Todos los componentes son funciones SIEMRPE
+2) Todos los componentes se nombran en Mayuscula  (Solo la primer letra)
+3) Todos los componentes tiene que tener un retorno, es decir, tienen que estar rendenderizados.
+    se usa la etiqueta "return" y todo lo que siga despues de esa etiqueta es lo que se va a dibujar en nuestra App.
+    la arrow function es una forma de sacar las llaves {} y la palabra "return"
+4) Para ejecutar una funcion se utiliza un formato JSX que es una convinacion entre JS y XML para esto
+    se utiliza una etiqueta de cierre por ejemplo: <App/>
+5) Siempre que un componente se determina se escribe como una funcion y siempre que un componente 
+    se ejecuta se escribe en formato JSX
+6)
+
+function App () {}
+const App = () => {}
+class App {}
+
