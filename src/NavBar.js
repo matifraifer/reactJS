@@ -1,11 +1,11 @@
 // aca no es necesario poner los import ni el render
+// se puede usar el "fragmento" <></>
 
-const App = () => 
+const NavBar = () => 
 <ul>
     <li>Item 1</li>
     <li>item 2</li>
     <li>item 3</li>
 </ul>
 
-// se puede usar el "fragmento" <></>
-export default App
+export default NavBar
