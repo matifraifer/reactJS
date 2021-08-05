@@ -1,9 +1,13 @@
 import NavBar from "./NavBar"
 
-const Header = () =>
-    <header>
-        <h1>Titulo</h1>
-        <NavBar/>
-    </header>
 
+const Header = ({nombre}) => {
+
+    return(
+    <header>
+        <h1 >Hola {nombre}!</h1>
+        <NavBar/>
+    </header>)
+    
+}
 export default Header

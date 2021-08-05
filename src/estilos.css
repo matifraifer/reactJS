@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    min-height: 100vh;
+}
+
+.boton{
+    border: greenyellow 3px solid;
+    padding: 2em 7em ;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+}
+.cont{
+    margin: 10px;
+    font-size: xx-large;
+    border: red solid 1px;
+}
