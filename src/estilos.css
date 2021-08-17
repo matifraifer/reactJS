@@ -7,7 +7,17 @@
 html, body, #root{
     min-height: 100vh;
 }
-
+.navBar{
+    border: green 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imagenProdu{
+    border: solid red 1px;
+    width: 200px;
+    height: 200px;
+}
 .boton{
     border: greenyellow 3px solid;
     padding: 2em 7em ;
