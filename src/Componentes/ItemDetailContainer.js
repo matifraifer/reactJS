@@ -2,25 +2,27 @@ import ItemDetail from "./ItemDetail";
 import { prodUnico } from "./unico";
 import React, {useEffect, useState} from "react";
 
-
+const init = {id: 1, titulo: "producto 1", descripcion: "loren ipsun", precio: 100, img: "img", stock: 10}
 const ItemDetailContainer = (greeting) => {
-    const [unico,setUnico] = useState([])
+    
+    const [item,setItem] = useState(false)
 
     useEffect(()=>{
-    
-        const promise = new Promise((resolve,reject)=>{
           setTimeout(()=>{
-            resolve(unico)
+            Promise
+            .resolve(init)
+            .then(response =>{
+              setItem(response)
+            })
           },2000)
-        })
-    
-        promise.then((unico)=>setUnico(prodUnico))
-      
       },[])
     console.log(greeting)
 
     return(
-        <ItemDetail/>
+        <>
+        <p>Detalle del Item</p>
+        <ItemDetail item={item}/>
+        </>
         )
 }
 export default ItemDetailContainer

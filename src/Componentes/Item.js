@@ -11,6 +11,7 @@ const Item = ({producto}) => {
            <div className="imagenProdu">{producto.img}</div>
            <div>{producto.titulo}</div>
            <div>{producto.descripcion}</div>
+           
        </ul>
     )
 }
